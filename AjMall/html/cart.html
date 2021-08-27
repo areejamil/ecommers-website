@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale= 1.0"> 
+       
+        <title>
+            product page
+        </title>
+        <link rel="stylesheet" href="../styles/home.css">
+        <link rel="stylesheet" href="../styles/products.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav class="nav">
+                <a href="#" class="logo"><img src="../images/aj.png" width="55px" height="55px"></a>
+                <span class="title" style=" bottom : 0%"><p> Aj Mart </p></span>
+                <div class="navLinks" id="nav-links">
+                    <i onclick="hideMenu()" class="fa fa-times" aria-hidden="true"></i>
+                    <ul>
+                        <li> <a href="../html/homePage.html">Home</a> </li>
+                        <li> <a href="../html/products.html">Products</a> </li>
+                        <li> <a href="../html/products.html">shop 2</a> </li>
+                        <li> <a href="../html/products.html">shop 3</a> </li>
+                        <li> <a href="../html/products.html">shop 4</a> </li>
+                    </ul>
+
+                </div>
+                <img class="cart" src="../images/cart.jpg" alt="" width="30px" height="30px">
+
+                <i onclick="showMenu()" class="fa fa-bars" ></i>
+            </nav>
+            
+        </section>
+
+        <!---------------------------------->
+        <!---------------------------------->
+        <!-----------------cart items detail----------------->
+        <div class="smallContainer cartPage">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartInfo">
+                            <img src="../images/dress1Show1.jpg" alt="">
+                            <div>
+                                <p>Kameez Dupata</p>
+                                <small>Price: $50.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartInfo">
+                            <img src="../images/dress1Show1.jpg" alt="">
+                            <div>
+                                <p>Kameez Dupata</p>
+                                <small>Price: $70.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cartInfo">
+                            <img src="../images/dress1Show1.jpg" alt="">
+                            <div>
+                                <p>Kameez Dupata</p>
+                                <small>Price: $67.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</th>
+                </tr>
+            </table>
+            
+            <div class="totalPrice">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$65.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$68.00</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        
+        
+
+       
+        <footer>
+            <h4>About Us</h4>
+            <p>Products we offer is avalible on your city you can check 
+                it physically ,you canalso order it<br> from home Products we offer is avalible on your city you can check                           
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by easy tutorial</p>
+        </footer>
+        
+    </body>
+</html>

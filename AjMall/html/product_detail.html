@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale= 1.0"> 
+       
+        <title>
+            product page
+        </title>
+        <link rel="stylesheet" href="../styles/home.css">
+        <link rel="stylesheet" href="../styles/products.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav class="nav">
+                <a href="#" class="logo"><img src="../images/aj.png" width="55px" height="55px"></a>
+                <p class="title" style=" bottom : 0%"> Aj Mart </p>
+                <div class="navLinks" id="nav-links">
+                    <i onclick="hideMenu()" class="fa fa-times" aria-hidden="true"></i>
+                    <ul>
+                        <li> <a href="../html/homePage.html">Home</a> </li>
+                        <li> <a href="../html/products.html">Products</a> </li>
+                        <li> <a href="../html/products.html">shop 2</a> </li>
+                        <li> <a href="../html/products.html">shop 3</a> </li>
+                        <li> <a href="../html/products.html">shop 4</a> </li>
+                    </ul>
+
+                </div>
+                <img class="cart" src="../images/cart.jpg" alt="" width="30px" height="30px">
+
+                <i onclick="showMenu()" class="fa fa-bars" ></i>
+            </nav>
+            
+        </section>
+        <!---------------single product detail------------->
+        <div class="smallContainer singleProduct"> 
+            <div class="col2">
+                <img src="../images/show1.jpg" alt="" id="productImg">
+
+                <div class="smallImgRow">
+                    <div class="smallImgCol">
+                        <img src="../images/show1.jpg" alt="" class="smallImg">
+                    </div>
+                    <div class="smallImgCol">
+                        <img src="../images/show2.jpg" alt="" class="smallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <p class="directory">Home / Frak</p>
+                <h1>Yellow short Frak</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select size</option>
+                    <option >XXL</option>
+                    <option>XL</option>
+                    <option>Small</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+
+                </select>
+                <input type="number" value="1">
+                <a href="" class="hereBtn" >Add to Cart</a>
+                <br>
+                <h3>Product Detail <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Product color may vary slightly due to photographic lighting or your device settings. Embroidered net front, back and sleeves
+                    Embroidered neckline
+                    Embriodered sleeves lace
+                    Dyed lawn undershirt
+                    Dyed cambric trouser
+                    Embroidered ghera lace I
+                    Embroidered ghera lace II
+                    Printed tissue silk dupatta</p>
+            </div>
+        </div>
+<!-------------title-------------->
+<div class="smallContainer">
+    <div class="row row2">
+        <h2>Related Products</h2>
+        <p>View more</p>
+    </div>
+</div>
+        <!-------------products-------------->
+        <div class="catergories">
+            <div class="smallContainer">
+                <div class="col4">
+                    <img src="../images/dress1.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="../images/dress1.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="../images/dress1.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="../images/dress1.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                
+            </div>
+       </div>
+
+       
+        <footer>
+            <h4>About Us</h4>
+            <p>Products we offer is avalible on your city you can check 
+                it physically ,you canalso order it<br> from home Products we offer is avalible on your city you can check                           
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by easy tutorial</p>
+        </footer>
+        <script>
+            var navLink = document.getElementById("nav-links");
+            function showMenu()
+            {
+                navLink.style.display = "block";   
+                
+            }
+            function hideMenu()
+            {
+                navLink.style.display = "none";
+            }
+        </script>
+
+<!------------js for product gallary----------->
+<script>
+var productImg = document.getElementById("productImg")
+var smallImg = document.getElementsByClassName("smallImg");
+        smallImg[0].onclick = function(){
+        productImg.src = smallImg[0].src;
+    }
+
+    smallImg[1].onclick = function(){
+        productImg.src = smallImg[1].src;
+    }
+ 
+
+
+</script>
+    </body>
+</html>
