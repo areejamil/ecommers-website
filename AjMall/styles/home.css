@@ -176,6 +176,10 @@ nav .fa
     
 
 }
+    .smallContainer
+    {
+        justify-content:center;
+    }
 
 }
 
