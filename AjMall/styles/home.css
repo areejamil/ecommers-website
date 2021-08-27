@@ -181,7 +181,11 @@ nav .fa
         justify-content: center;
     }
    
-
+.title {
+    margin-top: 5%;
+    left: 0;
+}
+    
 }
 
 /* products */
